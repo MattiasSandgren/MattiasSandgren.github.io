@@ -49,9 +49,8 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
-    position: absolute;
-    right: 130px;
     width: 133px;
+    float: right;
 }
 footer {
     border-bottom: solid 2px black;
