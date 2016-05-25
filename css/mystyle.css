@@ -194,6 +194,18 @@ li > a:only-child:after {
     margin: 20px auto;
 }
 
+.ansvar {
+    height: 300px;
+    width: 820px;
+    margin: 20px auto;
+}
+
+.projekt {
+    height: 120px;
+    width: 820px;
+    margin: 20px auto;
+}
+
 table {
     font-size: 14px;
     width: 625px;
