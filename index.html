@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tres Platános</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/unslider-dots.css">
+</head>
+<body>
+<div class="gorillapicture"></div>
+<div class="symbol">
+    <div class="tres"><h1>Tres</h1></div>
+    <div class="logo"><img src="http://res.freestockphotos.biz/pictures/15/15909-illustration-of-bananas-pv.png" alt="Bananas"></div>
+    <div class="platanos"><h1>Platános</h1></div>
+</div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="frukten.html">Frukten</a></li>
+            <li><a href="företaget.html">Företaget</a>
+                <ul>
+                    <li><a href="kontakt.html">kontakt</a></li>
+                </ul>
+            </li>
+            <li><a href="hållbarhet.html">Hållbarhet</a>
+                <ul>
+                    <li><a href="ansvar.html">Ansvar</a></li>
+                    <li><a href="hållbarhet.html/#projekt">Projekt</a></li>
+                </ul>
+            </li>
+            <li><a href="kundinfo.html">Kundinfo</a>
+                <ul>
+                    <li><a href="#Ombud">Ombud</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="slider">
+    <ul>
+        <li><img src="img/Banana_farm.jpg" alt="Banana farm"></li>
+        <li><img src="img/bananas-571536_960_720.jpg" alt="Banana cluster"></li>
+        <li><img src="img/5194600479_d16643a2d8_o.jpg" alt="Banana farm and a motorcycle"></li>
+    </ul>
+</div>
+
+
+<footer>
+    <div id="FooterLeftColumn">
+    <ul><li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="företaget.html">Företaget</a></li></ul></div>
+    <div id="FooterRightColumn"><p>&copy; 2016 Tres plátanos Brands. All rights reserved.</p></div>
+</footer>
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider.js"></script>
+
+<script>
+    jQuery(document).ready(function($) {
+        $('.slider').unslider(
+                {
+                    autoplay: true
+
+                }
+
+        );
+    });
+</script>
+</body>
+</html>
