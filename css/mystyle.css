@@ -252,6 +252,8 @@ li > a:only-child:after {
     width: 820px;
     height: 100px;
     margin: 10px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
 }
 
 .ombudsloggor {
