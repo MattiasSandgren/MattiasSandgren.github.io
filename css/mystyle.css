@@ -249,8 +249,9 @@ li > a:only-child:after {
 }
 
 .text13 {
-    width: 820px;
+    width: 830px;
     height: 100px;
+    padding: 10px;
     margin: 10px auto;
     background-color: #9acd32;
     border-radius: 7px;
