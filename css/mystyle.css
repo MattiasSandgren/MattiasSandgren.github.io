@@ -1,12 +1,14 @@
 body {
-    background-color: #ffffff;
+    background-image: url(../img/7802577700_664f5a957d_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container {
     width: 960px;
     margin: 50px auto;
     border: solid 2px black;
     border-radius: 14px;
-    background-color: #E4E32C;
+    background-color: lightgrey;
 }
 h2 {
     font-family: 'Rock Salt', cursive;
