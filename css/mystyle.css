@@ -1,8 +1,12 @@
 body {
+    background-color: #ffffff;
+}
+.container {
     width: 960px;
     margin: 50px auto;
     border: solid 2px black;
     border-radius: 14px;
+    background-color: #E4E32C;
 }
 h2 {
     font-family: 'Rock Salt', cursive;
@@ -106,7 +110,7 @@ footer a:hover {
 header {
     font-family: 'Rock Salt', cursive;
     margin-top: 100px;
-    background-color: white;
+    background-color: #9acd32;
     border-bottom: solid 2px black;
     border-top: solid 2px black;
 }
@@ -119,7 +123,7 @@ nav {
 nav a {
     display: block;
     padding: 0 10px;
-    background-color: white;
+    background-color: #9acd32;
     font-size: 20px;
     line-height:60px;
     text-decoration: none;
@@ -143,7 +147,7 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: #8ab92d;
 }
 
 nav ul ul {
@@ -186,6 +190,8 @@ li > a:only-child:after {
     float: left;
     margin: 20px;
     padding: 10px;
+    background-color: #9acd32;
+    border-radius: 7px;
 }
 
 .text {
@@ -194,21 +200,55 @@ li > a:only-child:after {
     margin: 20px auto;
 }
 
+.text7 {
+    height: 160px;
+    width: 820px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
+}
+
 .ansvar {
     height: 300px;
     width: 820px;
+    padding: 10px;
     margin: 20px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
 }
 
 .projekt {
-    height: 120px;
+    height: 100px;
+    padding: 10px;
     width: 820px;
     margin: 20px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
 }
+
+.text11 {
+    height: 240px;
+    width: 820px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
+}
+
 
 .text21 {
     width: 820px;
     height: 160px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #9acd32;
+    border-radius: 7px;
+}
+
+.text13 {
+    width: 820px;
+    height: 100px;
     margin: 10px auto;
 }
 
@@ -258,7 +298,7 @@ legend {
 fieldset {
     margin: 30px 0;
     border-radius: 7px;
-    border-color: yellowgreen;
+    border-color: #9acd32;;
 }
 
 .textfields {
@@ -266,7 +306,7 @@ fieldset {
 }
 
 #bananatree {
-    background-image: url("https://pixabay.com/static/uploads/photo/2013/07/13/09/35/palm-tree-155730_960_720.png");
+    background-image: url(../img/palm-tree-155730_960_720.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
@@ -279,7 +319,7 @@ form {
     width: 820px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #9acd32;
     border-radius: 10px;
     border: 1px solid white;
     box-shadow:black 10px;
